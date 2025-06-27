@@ -1,7 +1,66 @@
-h1{
-    font-family:"poppins";
-    font-style: normal;
+
+body{
+    font-family: poppins, sans-serif;
+    background-color: black ;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+
+header{
+background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.4)), url("../images/Tayhomepage.png");
+background-repeat: no-repeat;
+background-size:cover;
+color: white;
+text-align: center;
+padding: 200px 0;
+}
+
+header h1 {
+  font-size: 90px;
+  font-weight: 700;
+  line-height: 1;
+  margin: 30 0;
+}   
+
+header h2 {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+  }   
+  
+header a {
+    font-size: 14px;
     font-weight: 700;
-    font-size: 50px;
-    line-height: 144px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    display: inline-block;
+    background-color: pink;
+    padding: 15px 30px;
+    margin-top: 30px;
+    
+}
+
+
+@media(max-width: 900px){
+    header{
+        padding: 60px 0;
+    }
+    header h1 {
+        font-size: 45px;
+    }
+    header h2 {
+        font-size: 20px;
+    }
+    header a {
+        font-size: 12px;
+    }
 }
