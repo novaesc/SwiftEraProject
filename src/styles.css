@@ -85,12 +85,14 @@ body{
 section{
     max-width: 100%;
     margin: 0 auto;
-    padding: 90px;
+    padding: 80px;
 }
 
 
 section.secondary {
     background-color: #D2D2D2;
+    padding: 80px;
+
 }
 
 header{
@@ -132,7 +134,7 @@ header h2 {
 }
 .site-link:hover {
     opacity: 1;
-    color: rgb(40, 108, 153);
+    color: rgb(212, 168, 233);
 }
 
 
@@ -164,13 +166,10 @@ main p{
     margin-bottom: 20px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     border-radius: 5px;    
-   
 
 }
 
-.main-image:hover {
-    transform: scale(1.30);  
-  }
+
 
 .image-card{
     width: 300px;
@@ -199,6 +198,9 @@ header a {
 }
 
 
+
+
+
 main{
     background-color: whitesmoke;
 
@@ -210,7 +212,7 @@ main h2{
     font-weight: 700;
     line-height: 1.5;
 letter-spacing: 3px;
-color: blueviolet;
+color: rgb(212, 168, 233);
 opacity: 0.3;
 }
 
@@ -239,9 +241,11 @@ opacity: 0.3;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 30px;
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
     padding: 30px;
+    align-items: center;
+    justify-items: center;
   }
   
   .video-grid-2 iframe {
@@ -252,8 +256,10 @@ opacity: 0.3;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
 
-
-
+  .video-section {
+    padding-top: 80px;
+  }
+  
 
 footer{
     color: white ;
